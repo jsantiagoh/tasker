@@ -38,3 +38,9 @@ The program formats tasks according to [Obsidian Tasks](https://publish.obsidian
 * A checkbox (`[ ]`) to indicate a task without a due date
 * The task description itself, preceded by `#task`
 * An optional date in square brackets (`[[due::YYYY-MM-DD]]`)
+
+### Use it to create an obsidian task in a daily note
+
+Combined with [Advanced URI](https://github.com/Vinzent03/obsidian-advanced-uri) we can use this to create a task and it's due date and add it automatically in today's note.
+
+`open obsidian://advanced-uri?vault=YOUR_VAULT&daily=true&heading=TASKS_HEADING&mode=append&data=OUTPUT_OF_TASKER"`
